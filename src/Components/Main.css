@@ -1,0 +1,51 @@
+header {
+    font-size: 40px;
+
+}
+
+.newCarCard {
+    display: flex;
+    /* border: 1px solid red; */
+    border-radius: 20px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #54A6FF;
+    color: white;
+    text-align: start;
+    height: 360px;
+    padding: 20px 50px;
+    margin: 0px 10px;
+}
+
+.newCarCard .info {
+    align-items: end;
+}
+
+.newCarCard .info h1 {
+    font-size: 40px;
+    text-align: start;
+    margin: 10px 0px;
+    /* line-height: 1; */
+}
+
+.newCarCard .info p {
+    margin: 10px 0px;
+}
+
+.newCarCard .info button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #3563E9;
+}
+
+.newCarCard img {
+    display: flex;
+    align-items: baseline;
+    height: 200px;
+
+}
+
+.newCarCard:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: .5s;
+}

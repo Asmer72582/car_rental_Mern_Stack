@@ -1,0 +1,123 @@
+.carCard {
+    /* height: 350px; */
+
+    width: 350px;
+    margin: 10px 0px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.carCard:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: .4s;
+    transform: translateY(-10px);
+}
+
+.carCard .carTitle {
+    display: flex;
+    justify-content: space-between;
+    /* padding: 10px; */
+}
+
+.carCard .carTitle .text h4 {
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.carCard .carTitle .text p {
+    font-size: 12px;
+    color: #90A3BF;
+}
+
+.carCard .carTitle .icon {
+    color: #90A3BF;
+
+}
+
+.carCard .carTitle .icon #liked {
+    color: #ED3F3F;
+}
+
+
+.carCard .carImage {
+    margin: 20px 0px;
+}
+
+.carCard .carFeatures {
+
+    display: flex;
+    justify-content: space-evenly;
+    color: #90A3BF;
+}
+
+
+.carCard .carFeatures .features {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.carCard .carFeatures .features span {
+    padding: 0px 3px;
+
+}
+
+.carAction {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.carAction .button {
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.carAction .prize {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.carAction .prize p {
+    font-size: 13px;
+    color: #90A3BF;
+    text-decoration-line: line-through;
+}
+
+
+.carAction .prize span {
+    color: #90A3BF;
+    font-size: 14px;
+
+}
+
+@media only screen and (max-width: 1600px) {
+    .carMain {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .carCard .carFeatures {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+
+    .carCard .carFeatures .features {
+        font-size: 12px;
+        display: flex;
+        justify-content: start;
+        text-align: left;
+
+    }
+
+    .carCard .carImage {
+        width: 200px;
+    }
+}

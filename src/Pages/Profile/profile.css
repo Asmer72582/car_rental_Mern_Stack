@@ -1,0 +1,31 @@
+.jumbotron-flat {
+    background-color: #4DB8FF;
+    height: 100%;
+    border: 1px solid #4DB8FF;
+    background: white;
+    width: 100%;
+    text-align: center;
+    overflow: auto;
+
+    color: #000;
+}
+
+.paymentAmt {
+    color: #000;
+    font-size: 80px;
+}
+
+.centered {
+    text-align: center;
+}
+
+.title {
+    padding-top: 15px;
+    color: #000;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: lowercase;
+}

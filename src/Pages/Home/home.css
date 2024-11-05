@@ -1,0 +1,152 @@
+body {
+    background-color: #F6F7F9;
+}
+
+* {
+    /* border: 1px solid red; */
+}
+
+.car_poster {
+    /* background: url("../../Media/car1.png"); */
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.car_poster:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    /* transition: 1s; */
+}
+
+.location_input {
+    border-radius: 20px;
+}
+
+.location_input,
+.button {
+    background-color: #3563E9;
+    color: #fff;
+}
+
+.location_input:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.textinput {
+    background-color: white;
+    color: #000;
+    height: 100px;
+}
+
+.location_input,
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 80%; */
+    margin: auto;
+
+}
+
+@media only screen and (max-width: 1600px) {
+    .services {
+        display: none;
+
+        flex-direction: column;
+    }
+}
+
+.services .button {
+    /* width: 100px; */
+    height: 60px;
+    min-width: 60px;
+}
+
+.services .pickUp {
+
+
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    /* margin: 0 0px 100px 0px; */
+    height: 120px;
+
+}
+
+.services .pickUp .radio {
+    display: none;
+
+}
+
+.services .pickUp .radio input {
+    margin: 10px;
+
+}
+
+.services .pickUp .pickup {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+
+    margin: 0px 20px;
+}
+
+.services .pickUp .pickup div {
+    padding: 0px 50px;
+    width: 100%;
+    text-align: left;
+}
+
+.services .pickUp .pickup div h4 {
+    font-weight: 600;
+    font-size: 18px
+}
+
+.services .pickUp .pickup div select {
+    color: #90A3BF;
+    font-size: 12px;
+    /* text-indent: -2px */
+    /* border: 1px solid red; */
+    padding: 0px;
+    outline: none;
+    margin: -4px;
+}
+
+section .popularCars {
+    width: 90%;
+    margin: 50px auto;
+
+}
+
+section .popularCars .cars {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+section .popularCars .header {
+    display: flex;
+    justify-content: space-between;
+}
+
+section .popularCars .header h4 {
+    color: #90A3BF;
+    font-size: 17px;
+}
+
+section .popularCars .header h3 {
+    color: #3563E9;
+
+    font-size: 16px;
+}

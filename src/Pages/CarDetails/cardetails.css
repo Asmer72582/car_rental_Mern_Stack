@@ -1,0 +1,12 @@
+.sideBar {
+    max-width: 300px;
+    border: 1px solid red;
+
+}
+
+.sideBar form {
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    flex-direction: column;
+}

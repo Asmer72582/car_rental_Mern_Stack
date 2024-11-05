@@ -1,0 +1,84 @@
+body {
+    background-color: #F6F7F9;
+}
+
+.containers {
+    overflow: hidden;
+    /* padding: 40px; */
+}
+
+.bgImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+
+}
+
+.bgForm {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    overflow: hidden;
+}
+
+.bgForm .shape {
+    background-color: #3563E9;
+    /* padding: 10px; */
+    height: 120vh;
+    position: absolute;
+    width: 120%;
+    transform: rotate(45deg);
+    border-radius: 100px;
+    z-index: -10000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: -350px;
+}
+
+.bgForm form {
+    width: 50%;
+
+    color: #fff;
+
+    /* transform: rotate(-50deg); */
+}
+
+.bgForm form h1 {
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.bgForm form .btn-default {
+    float: right;
+}
+
+@media only screen and (max-width: 1600px) {
+    * {
+        /* border: 1px solid red; */
+    }
+
+    .bgForm .shape {
+        display: none;
+        transform: rotate(-45deg);
+    }
+
+    .bgForm {
+        position: absolute;
+        top: 0;
+        width: 100vw;
+        opacity: 0.9;
+        background-color: #3563E9;
+        height: 100%;
+        padding: 50px 0px;
+        margin: 0;
+    }
+
+    .bgForm form {
+        opacity: 1;
+    }
+}

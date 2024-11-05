@@ -1,0 +1,16 @@
+[
+    {
+        "name": "AUDI",
+        "category": "Sport",
+        "carImage": "jnksnd",
+        "prize": "99.00",
+        "status": "liked"
+    },
+    {
+        "name": "BMW",
+        "category": "Sport",
+        "carImage": "jnksnd",
+        "prize": "99.00",
+        "status": "liked"
+    }
+]
